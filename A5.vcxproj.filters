@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ObjLibrary">
+      <UniqueIdentifier>{980ebc0c-915a-4a87-a088-2ffec0b08215}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heightmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Links.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Search_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sleep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\DisplayList.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\Material.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\MtlLibrary.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\MtlLibraryManager.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\ObjModel.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\ObjStringParsing.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\SpriteFont.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\Texture.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\TextureBmp.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\TextureManager.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\Vector2.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibrary\Vector3.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Disk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetGlut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heightmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Links.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsFrameLength.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Search_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\DisplayList.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\Material.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\MtlLibrary.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\MtlLibraryManager.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\ObjModel.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\ObjSettings.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\ObjStringParsing.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\SpriteFont.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\Texture.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\TextureBmp.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\TextureManager.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\Vector2.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibrary\Vector3.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FontTimesNewRoman16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freeglut.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freeglut.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ObjLibrary\ObjLibrary-development-log.txt">
+      <Filter>ObjLibrary</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0712F037-304D-4179-AFE7-206FAB97610C}</ProjectGuid>
+    <RootNamespace>A5</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Disk.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Heightmap.cpp" />
+    <ClCompile Include="Links.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MovementGraph.cpp" />
+    <ClCompile Include="Nodes.cpp" />
+    <ClCompile Include="NoiseField.cpp" />
+    <ClCompile Include="ObjLibrary\DisplayList.cpp" />
+    <ClCompile Include="ObjLibrary\Material.cpp" />
+    <ClCompile Include="ObjLibrary\MtlLibrary.cpp" />
+    <ClCompile Include="ObjLibrary\MtlLibraryManager.cpp" />
+    <ClCompile Include="ObjLibrary\ObjModel.cpp" />
+    <ClCompile Include="ObjLibrary\ObjStringParsing.cpp" />
+    <ClCompile Include="ObjLibrary\SpriteFont.cpp" />
+    <ClCompile Include="ObjLibrary\Texture.cpp" />
+    <ClCompile Include="ObjLibrary\TextureBmp.cpp" />
+    <ClCompile Include="ObjLibrary\TextureManager.cpp" />
+    <ClCompile Include="ObjLibrary\Vector2.cpp" />
+    <ClCompile Include="ObjLibrary\Vector3.cpp" />
+    <ClCompile Include="PathFinding.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Ring.cpp" />
+    <ClCompile Include="Rod.cpp" />
+    <ClCompile Include="Search_data.cpp" />
+    <ClCompile Include="Sleep.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Disk.h" />
+    <ClInclude Include="DiskType.h" />
+    <ClInclude Include="freeglut.h" />
+    <ClInclude Include="freeglut_ext.h" />
+    <ClInclude Include="freeglut_std.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GetGlut.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="Heightmap.h" />
+    <ClInclude Include="Links.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MovementGraph.h" />
+    <ClInclude Include="Nodes.h" />
+    <ClInclude Include="NoiseField.h" />
+    <ClInclude Include="ObjLibrary\DisplayList.h" />
+    <ClInclude Include="ObjLibrary\Material.h" />
+    <ClInclude Include="ObjLibrary\MtlLibrary.h" />
+    <ClInclude Include="ObjLibrary\MtlLibraryManager.h" />
+    <ClInclude Include="ObjLibrary\ObjModel.h" />
+    <ClInclude Include="ObjLibrary\ObjSettings.h" />
+    <ClInclude Include="ObjLibrary\ObjStringParsing.h" />
+    <ClInclude Include="ObjLibrary\SpriteFont.h" />
+    <ClInclude Include="ObjLibrary\Texture.h" />
+    <ClInclude Include="ObjLibrary\TextureBmp.h" />
+    <ClInclude Include="ObjLibrary\TextureManager.h" />
+    <ClInclude Include="ObjLibrary\Vector2.h" />
+    <ClInclude Include="ObjLibrary\Vector3.h" />
+    <ClInclude Include="overview.h" />
+    <ClInclude Include="PathFinding.h" />
+    <ClInclude Include="PhysicsFrameLength.h" />
+    <ClInclude Include="Pi.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Ring.h" />
+    <ClInclude Include="Rod.h" />
+    <ClInclude Include="Search_data.h" />
+    <ClInclude Include="Sleep.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FontTimesNewRoman16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freeglut.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freeglut.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ObjLibrary\ObjLibrary-development-log.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

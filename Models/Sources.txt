@@ -1,0 +1,24 @@
+Texture/Model Sources
+=====================
+
+All models and textures made for CS 409 unless otherwise specified
+
+Skybox texture:
+	http://www.keithlantz.net/wp-content/uploads/2011/10/skybox_texture.jpg (modified)
+
+Disk textures:
+A	http://webglbasic.com/compiler/textures/terra/terra028.jpg
+B	https://i.pinimg.com/736x/7c/ed/f9/7cedf9ec43be0f62de970d6e1b0d63e3--grass-texture-texture-seamless.jpg
+C	http://spiralgraphics.biz/packs/snow_ice/previews/Chiseled%20Ice.jpg
+D	http://bgfons.com/uploads/sand/sand_texture1028.jpg
+E	http://www.mb3d.co.uk/mb3d/Stone_and_Rock_Seamless_and_Tileable_High_Res_Textures_files/Rock_07_UV_H_CM_1.jpg
+
+Player characters:
+	guard: converted from .mdl model provided with 3D GameStudio 5 example games
+	cbabe: converted from .mdl model provided with 3D GameStudio 6 example games
+
+BrownBat:
+	From work by some of Dr. Hamilton's grad students, I don't know where they got it
+
+Old Disk trexures:
+	http://www.mb3d.co.uk/mb3d/Stone_and_Rock_Seamless_and_Tileable_High_Res_Textures_files/Craggy_Stone_With_Green_Moss_Litchen_UV_CM_1.jpg

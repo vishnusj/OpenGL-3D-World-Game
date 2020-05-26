@@ -1,0 +1,33 @@
+#
+#  Skybox.mtl
+#
+
+newmtl skybox1
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd skybox1.bmp
+
+newmtl skybox2
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd skybox2.bmp
+
+newmtl skybox3
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd skybox3.bmp
+
+newmtl skybox4
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd skybox4.bmp
+
+newmtl skybox5
+illum 0
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+map_Kd skybox5.bmp
